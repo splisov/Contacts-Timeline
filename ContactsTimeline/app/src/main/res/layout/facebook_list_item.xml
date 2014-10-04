@@ -26,12 +26,23 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="First LastName"
-                    android:id="@+id/fbListItemFriendNameTextView"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="5dp"/>
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Facebook message/action preview"
+                    android:id="@+id/fbListItemContentPreview"
+                    android:maxWidth="270dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
 
+                <!--<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Event/Interaction Name"
+                    android:id="@+id/fbListItemInteractionNameTextView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"/>-->
+
+                <!-- Make blue to identify facebook listview item-->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -44,16 +55,6 @@
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Facebook message/action preview"
-            android:id="@+id/fbListItemContentPreview"
-            android:layout_marginLeft="5dp"
-            android:layout_marginBottom="5dp"/>
-
     </LinearLayout>
-
 
 </LinearLayout>
